@@ -1,0 +1,48 @@
+<body><font face="Verdana" size="6" color="Beige">
+<h1><center><b><u><i>APLICATIA 1</i></u></h1></center></b>
+
+<p><B><H2>&nbsp&nbsp&nbsp&nbspCERINTA:</B></H2>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font color="Beige">Se citeste de la tastatura o matrice patratica cu n linii si coloane cu
+elemente numere naturale nenule. Sa se modifice valorile divizibile cu 2 in 0
+si cele divizibile cu 5 in -1. Daca un numar este divizibil cu ambele sa se
+modifice cu -2.<br>
+<style>
+body{
+	background-image: url("nu5.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+  
+}
+</style>
+<p><B><H2>&nbsp&nbsp&nbsp&nbspREZOLVARE:</B></H2>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp#include < iostream ><br>
+&nbsp&nbsp&nbsp&nbsp&nbspusing namespace std;<br>
+&nbsp&nbsp&nbsp&nbsp&nbspint main (){<br>
+&nbsp&nbsp&nbsp&nbsp&nbspint a[100][100],n,i,j;<br>
+&nbsp&nbsp&nbsp&nbsp&nbspcin>> n;<br>
+&nbsp&nbsp&nbsp&nbsp&nbspfor(i=1;i<=n;i++)<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfor(j=1;j<=n;j++)<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcin>>a[i][j];<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfor(i=1;i<=n;i++)<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfor(j=1;j<=n;j++)<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif((a[i][j]%2==0)&&(a[i][j]%5==0))<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspa[i][j]=-2;<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspelse if(a[i][j]%2==0)<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspa[i][j]=0;<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspelse if(a[i][j]%5==0)<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspa[i][j]=-1;<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfor(i=1;i<=n;i++){<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfor(j=1;j<=n;j++)<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcout<< a[i][j]<< " ";<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcout<< endl;<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+&nbsp&nbsp&nbsp&nbsp&nbspreturn 0;<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+
+
+
+<br>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="divizibilitate3.html"><font face="Verdana" size="6" color="LIME">LISTA APLICATII</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="2.html"><font face="Verdana" size="6" color="LIME">INAINTE -></a>
