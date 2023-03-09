@@ -1,1 +1,1 @@
-Download the "html" folder and open "divizibilate.html" with chrome or any other browser.
+Download zip and within the "html" folder, open "divizibilate.html" with chrome or any other browser,
